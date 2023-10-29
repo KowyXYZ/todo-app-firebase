@@ -74,7 +74,8 @@ function ToDo({setIsAuth}) {
   return (
     
     <div className='flex justify-center items-center container mx-auto flex-col py-12 gap-4'>
-      <p className='text-[24px] font-black'>Welcome to:  <span className='text-purple-500'>{auth?.currentUser?.displayName}</span> ToDo List</p>
+      <p className='text-[24px] font-black'>Welcome to ToDo List</p>
+      <p>Anyone can post and todo here feel free to add yours this is just a test project</p>
       <p className='text-lime-500' onClick={() => setVisible(!visible)}>[+] Add New ToDo</p>
       {visible ? 
       <motion.div
